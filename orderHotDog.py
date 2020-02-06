@@ -18,7 +18,7 @@ from time import sleep
 def order(orderIterations):
     try:
         for i in range(orderIterations):
-            pyautogui.click(x=358, y=101) # Click Salad button
+            pyautogui.click(x=358, y=101) # Click menu button
             # pyautogui.click(x=800, y=275) # Click (Not needed for this layout)
             for i in range(2): # Iterate through all the rest of the salads. Each button is 113 pixels apart. 
                 pyautogui.click(646,297) # Order Hot Dog
